@@ -45,7 +45,7 @@ module.exports = {
         // useStickyHeader: false,
         // useSocialLinks: true,
         // useColorMode: true,
-        //footerContentLocation: "left", // "left", "right", "center"
+        footerContentLocation: "center", // "left", "right", "center"
       },
     },
     `gatsby-theme-catalyst-footer`,
