@@ -11,7 +11,7 @@ module.exports = {
       `Raindow Cochrane`,
     ],
     author: `Eric Howey`,
-    siteUrl: `https://www.kindredcochrane.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
+    siteUrl: `https://www.kindredcochrane.netlify.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     socialLinks: [
       {
         name: `Email`,
