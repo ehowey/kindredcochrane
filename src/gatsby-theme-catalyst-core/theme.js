@@ -18,9 +18,9 @@ export default {
     ...tailwind.colors,
     text: baseColors.gray[8],
     background: baseColors.gray[1], //Try "#954264",
-    primary: "#682454",
-    secondary: baseColors.orange[7],
-    accent: baseColors.orange[2],
+    primary: "#692354",
+    secondary: "#48afe5",
+    accent: "#d54aab",
     muted: baseColors.gray[2],
 
     header: {
@@ -92,6 +92,13 @@ export default {
       fontWeight: "body",
       lineHeight: "body",
       fontSize: 2,
+    },
+    a: {
+      color: "primary",
+      textDecoration: "underline",
+      ":hover": {
+        color: "secondary",
+      },
     },
     blockquote: {
       bg: "muted",

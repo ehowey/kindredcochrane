@@ -21,7 +21,7 @@ const SiteHeader = () => {
         }}
       >
         <Img
-          sx={{ width: ["200px", "300px", "300px", "300px", "300px"] }}
+          sx={{ width: ["200px", "300px", "300px", null, null] }}
           fluid={logo}
           alt={title}
         />
