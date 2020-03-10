@@ -1,41 +1,31 @@
 module.exports = {
   siteMetadata: {
-    title: `Catalyst Core`,
-    description: `Speed up your GatsbyJS development workflow. Designed as a set of opinionated and advanced themes and starters using MDX and Theme-UI. Incorporates only gatsby-theme-catalyst-core.`,
-    keywords: [`gatsby`, `theme`, `react`, `catalyst`],
-    author: `Eric Howey`,
-    siteUrl: `https://gatsby-starter-catalyst-core.netlify.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
-    menuLinks: [
-      {
-        name: `Page 1`,
-        link: `/page-1`,
-        type: `internal`, //internal or anchor
-      },
-      {
-        name: `Anchor 1`,
-        link: `#anchor-1`,
-        type: `anchor`, //internal or anchor
-      },
-      {
-        name: `Page 2`,
-        link: `/page-2`,
-        type: `internal`, //internal or anchor
-      },
+    title: `Kindred Cochrane`,
+    description: `Kindred Cochrane is a volunteer run organization focused on promoting and celebrating diversity, equality, and inclusion for Cochrane area residents. We organize community education workshops, host fun social events, and advocate for LGBTQ2S+ community.`,
+    keywords: [
+      `LGBTQ`,
+      `Kindred Cochrane`,
+      `LGBTQ2S+`,
+      `Pride`,
+      `Cochrane Pride`,
+      `Raindow Cochrane`,
     ],
+    author: `Eric Howey`,
+    siteUrl: `https://www.kindredcochrane.com`, //Change to you site address, required for sitemap.xml and robots.txt file among other things
     socialLinks: [
       {
         name: `Email`,
-        link: `eric@erichowey.dev`,
-        location: `footer`, //Options are "all", "header", "footer"
+        link: `kindredcochrane@gmail.com`,
+        location: `header`, //Options are "all", "header", "footer"
       },
       {
-        name: `Github`,
-        link: `https://www.github.com/ehowey`,
-        location: `all`, //Options are "all", "header", "footer"
+        name: `Facebook`,
+        link: `https://www.facebook.com/kindredcochrane/`,
+        location: `header`, //Options are "all", "header", "footer"
       },
       {
-        name: `Twitter`,
-        link: `https://www.twitter.com/erchwy`,
+        name: `Instagram`,
+        link: `https://www.instagram.com/kindredcochrane/`,
         location: `header`, //Options are "all", "header", "footer"
       },
     ],
@@ -58,11 +48,12 @@ module.exports = {
         //footerContentLocation: "left", // "left", "right", "center"
       },
     },
+    `gatsby-theme-catalyst-footer`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-catalyst-basic`,
-        short_name: `catalyst`,
+        name: `Kindred Cochrane`,
+        short_name: `Kindred`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#cccccc`,

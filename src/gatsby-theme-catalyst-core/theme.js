@@ -18,7 +18,7 @@ export default {
     ...tailwind.colors,
     text: baseColors.gray[8],
     background: baseColors.gray[1], //Try "#954264",
-    primary: baseColors.blue[7],
+    primary: "#682454",
     secondary: baseColors.orange[7],
     accent: baseColors.orange[2],
     muted: baseColors.gray[2],
@@ -81,7 +81,7 @@ export default {
     logoHeightL: "60px", // Logo height on large screens, 1024px - 1440px
     logoHeightXL: "60px", // Logo height on extra large screens, above 1440px
     iconsFooter: "32px", // Sets the icons size for the footer
-    iconsHeader: "20px", // Sets the icons size for the header
+    iconsHeader: "40px", // Sets the icons size for the header
   },
   styles: {
     ...tailwind.styles,
