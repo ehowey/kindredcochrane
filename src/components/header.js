@@ -27,10 +27,11 @@ const SiteHeader = () => {
         />
         <Styled.h1
           sx={{
-            fontSize: [4, 5, 6, null, null],
+            p: 3,
+            fontSize: [4, 5, null, null, null],
           }}
         >
-          Kind. Inclusive. Cochrane.
+          Kind. &nbsp; Inclusive. &nbsp; Cochrane.
         </Styled.h1>
       </div>
       <div

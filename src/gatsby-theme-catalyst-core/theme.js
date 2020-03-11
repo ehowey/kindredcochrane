@@ -81,7 +81,7 @@ export default {
     logoHeightL: "60px", // Logo height on large screens, 1024px - 1440px
     logoHeightXL: "60px", // Logo height on extra large screens, above 1440px
     iconsFooter: "32px", // Sets the icons size for the footer
-    iconsHeader: "40px", // Sets the icons size for the header
+    iconsHeader: "36px", // Sets the icons size for the header
   },
   styles: {
     ...tailwind.styles,
